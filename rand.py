@@ -1,0 +1,9 @@
+import random
+n=random.randbytes(3)
+print(n)
+print(random.randrange(1,8))
+print(random.randint(100,211))
+mylist=["Jadeja","Ashwin","Rehane","Shami","Dhoni","Virat"]
+print(random.choice(mylist))
+random.shuffle(mylist)
+print(mylist)
